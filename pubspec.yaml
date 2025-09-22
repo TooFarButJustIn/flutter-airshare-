@@ -1,0 +1,38 @@
+name: airshare
+description: A cross-platform file sharing app using WiFi Direct and local network discovery.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking & File Transfer
+  network_info_plus: ^4.1.0
+  permission_handler: ^11.0.1
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+
+  # UI & State Management
+  provider: ^6.0.5
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+
+  # Utils
+  crypto: ^3.0.3
+  mime: ^1.0.4
+  uuid: ^4.1.0
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
